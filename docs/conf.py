@@ -77,10 +77,14 @@ latex_elements = {
 \usepackage{charter}
 \usepackage[defaultsans]{lato}
 \usepackage{inconsolata}
+% 设置图片不浮动，紧贴原文位置
+\usepackage{float}
+\let\oldfigure\figure
+\renewenvironment{figure}[1][H]{\oldfigure[#1]}{\endoldfigure}
 ''',
     
     # Latex figure (float) alignment
-    'figure_align': 'htbp',
+    'figure_align': 'H',  # 使用 'H' 选项强制图片在确切位置放置
     
     # 去除多余的空白页
     'classoptions': ',openany,oneside',
