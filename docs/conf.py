@@ -62,3 +62,35 @@ html_theme_options = {
     'includehidden': True,
     'titles_only': False
 }
+
+# -- Options for LaTeX output -------------------------------------------------
+
+latex_elements = {
+    # The paper size ('letterpaper' or 'a4paper').
+    'papersize': 'a4paper',
+    
+    # The font size ('10pt', '11pt' or '12pt').
+    'pointsize': '10pt',
+    
+    # Additional stuff for the LaTeX preamble.
+    'preamble': r'''
+\usepackage{charter}
+\usepackage[defaultsans]{lato}
+\usepackage{inconsolata}
+''',
+    
+    # Latex figure (float) alignment
+    'figure_align': 'htbp',
+    
+    # 去除多余的空白页
+    'classoptions': ',openany,oneside',
+    'babel': '\\usepackage[english]{babel}',
+}
+
+# Grouping the document tree into LaTeX files. List of tuples
+# (source start file, target name, title,
+#  author, documentclass [howto, manual, or own class]).
+latex_documents = [
+    (master_doc, 'WTHM_IoT_Docs.tex', 'WTHM IoT Device Documentation',
+     'Monigear', 'manual'),
+]
