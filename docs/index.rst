@@ -1,14 +1,14 @@
 .. ifconfig:: language == 'zh_CN'
 
-   欢迎
-   ====
+   |welcome_title|
+   ===============
 
    .. include:: zh_main.rst
 
 .. ifconfig:: language != 'zh_CN'
 
-   Welcome
-   =======
+   |welcome_title|
+   ===============
 
    .. include:: en_main.rst
 

@@ -33,6 +33,7 @@ if language_env.startswith('en'):
     # Define replacement variables for English
     rst_epilog = """
 .. |main_title| replace:: WTHM IoT Device Documentation
+.. |welcome_title| replace:: Welcome
 .. |product_specs_title| replace:: Product Specifications
 .. |panel_ops_title| replace:: Panel Operations
 .. |wifi_config_title| replace:: Wi-Fi Configuration
@@ -48,6 +49,7 @@ else:
     # Define replacement variables for Chinese
     rst_epilog = """
 .. |main_title| replace:: WTHM IoT设备文档
+.. |welcome_title| replace:: 欢迎
 .. |product_specs_title| replace:: 产品技术参数
 .. |panel_ops_title| replace:: 液晶屏显示及按键说明
 .. |wifi_config_title| replace:: Wi-Fi配网说明
