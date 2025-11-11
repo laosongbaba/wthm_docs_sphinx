@@ -1,7 +1,7 @@
 .. WTHM Documentation master file
    This file will be dynamically adjusted based on the language
 
-.. ifconfig:: language == 'zh_CN'
+.. only:: zh_CN
 
    欢迎
    ====
@@ -17,7 +17,7 @@
       wifi-config
       detailed-instructions
 
-.. ifconfig:: language != 'zh_CN'
+.. only:: en
 
    Welcome
    =======
