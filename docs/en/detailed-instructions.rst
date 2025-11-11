@@ -1,17 +1,17 @@
-Wi-Fi配网详细指引
-=================
+Wi-Fi Configuration Detailed Guide
+==================================
 
-手机（或Pad，下同）扫描设备液晶屏上显示的二维码这一操作，实质上是先让手机连接 WTHM 设备的 Wi-Fi 网络，之后依赖手机系统的自动检测网络功能跳转到配置页面，从而完成配网流程。
+The operation of scanning the QR code displayed on the device LCD screen with a mobile phone (or Pad, same below) essentially first connects the phone to the WTHM device's Wi-Fi network, and then relies on the phone's automatic network detection function to redirect to the configuration page, thus completing the network configuration process.
 
-如你的手机未能正常跳转到配置页面，请按照如下详细步骤操作：
+If your mobile phone fails to redirect to the configuration page normally, please follow the detailed steps below:
 
-1. 请确认手机成功连接上 WTHM 设备的Wi-Fi网络，这是配网流程得以正确工作的 **前置条件** 。可在手机的 **设置** -> **WLAN** 配置页面中查看手机当前所连接的Wi-Fi网络名称是否是 ``WTHM-xxx`` 这一网络。如不是，请选择下列操作之一：
+1. Please confirm that your phone successfully connects to the WTHM device's Wi-Fi network, as this is the **prerequisite** for the configuration process to work properly. You can check in the phone's **Settings** -> **WLAN** configuration page whether the current Wi-Fi network name is ``WTHM-xxx``. If not, please select one of the following operations:
 
-   - 在该 **WLAN** 配置页中使用扫码功能扫描设备液晶屏上二维码完成网络连接。
-   - 在 *可用网络* 列表里手动选择连接 ``WTHM-xxx`` 网络，密码为 ``wangkong``。
+   - Use the QR code scanning function on the **WLAN** configuration page to scan the QR code on the device LCD to complete network connection.
+   - Manually select and connect to the ``WTHM-xxx`` network in the *Available Networks* list, password is ``wangkong``.
 
-2. 确认手机当前已连接上 ``WTHM-xxx`` Wi-Fi 网络这一前提下，查看该网络名下方是否有 `需要认证/登录` 之类的提示信息，或是查看系统提示栏是否有 `登录到WLAN网络` 之类提示信息。点击该 `认证/登录` 提示，触发系统弹出配置页面。
+2. After confirming that the phone is currently connected to the ``WTHM-xxx`` Wi-Fi network, check whether there is a prompt such as `Authentication Required/Login` below the network name, or whether there is a prompt such as `Login to WLAN Network` in the system notification bar. Click the `Authentication/Login` prompt to trigger the system to pop up the configuration page.
 
-3. 如上面的步骤仍未能触发系统弹出配置页面，请手动打开 **系统浏览器** ，在浏览器的地址栏手动输入 ``http://wthm.com`` ，此时浏览器会加载并显示配置页面。
+3. If the steps above still fail to trigger the system to pop up the configuration page, please manually open the **System Browser**, and manually enter ``http://wthm.com`` in the browser's address bar. The browser will then load and display the configuration page.
 
-:doc:`返回 <wifi-config>`
+:doc:`Back <wifi-config>`

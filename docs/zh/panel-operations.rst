@@ -8,7 +8,7 @@
 
 当配备不同的空气质量传感器，如CO₂、TVOC等，则会依次显示各项空气质量监测值。也可以按 **↓** 或 **↑** 按键切换显示内容。
 
-.. figure:: _static/images/th.png
+.. figure:: /_static/images/th.png
    :width: 210
    :alt: NTHM面板TH
 
@@ -17,7 +17,7 @@
 
 按住 **√** 按键1秒进入设备参数界面，可查看设备ip地址、设备时间、MAC地址、Wi-Fi网络、固件版本等参数信息。
 
-.. figure:: _static/images/ip.png
+.. figure:: /_static/images/ip.png
    :width: 160
    :alt: NTHM面板IP
 
@@ -26,6 +26,6 @@
 
 同时按住两侧的 **⟲** 和 **√** 按键5秒钟进入恢复出厂设置界面。设置恢复出厂设置并重启整个过程持续约十来秒。
 
-.. figure:: _static/images/reset.png
+.. figure:: /_static/images/reset.png
    :width: 160
    :alt: NTHM面板出厂

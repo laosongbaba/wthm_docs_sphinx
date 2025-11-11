@@ -1,31 +1,31 @@
-液晶屏显示及按键说明
-====================
+LCD Display and Button Operations
+=================================
 
-常规显示
---------
+Normal Display
+--------------
 
-常规显示模式下，设备液晶屏上显示温度、湿度参数值。
+In normal display mode, the device LCD shows temperature and humidity values.
 
-当配备不同的空气质量传感器，如CO₂、TVOC等，则会依次显示各项空气质量监测值。也可以按 **↓** 或 **↑** 按键切换显示内容。
+When equipped with different air quality sensors, such as CO₂, TVOC, etc., the device will display the corresponding air quality monitoring values in sequence. You can also press the **↓** or **↑** buttons to switch display content.
 
-.. figure:: _static/images/th.png
+.. figure:: /_static/images/th.png
    :width: 210
-   :alt: NTHM面板TH
+   :alt: NTHM Panel TH
 
-参数界面
---------
+Parameter Interface
+--------------------
 
-按住 **√** 按键1秒进入设备参数界面，可查看设备ip地址、设备时间、MAC地址、Wi-Fi网络、固件版本等参数信息。
+Press and hold the **√** button for 1 second to enter the device parameter interface, where you can view parameter information such as IP address, device time, MAC address, Wi-Fi network, firmware version, etc.
 
-.. figure:: _static/images/ip.png
+.. figure:: /_static/images/ip.png
    :width: 160
-   :alt: NTHM面板IP
+   :alt: NTHM Panel IP
 
-恢复出厂设置
-------------
+Factory Reset
+-------------
 
-同时按住两侧的 **⟲** 和 **√** 按键5秒钟进入恢复出厂设置界面。设置恢复出厂设置并重启整个过程持续约十来秒。
+Press and hold the **⟲** and **√** buttons simultaneously for 5 seconds to enter the factory reset interface. The reset and restart process takes about ten seconds.
 
-.. figure:: _static/images/reset.png
+.. figure:: /_static/images/reset.png
    :width: 160
-   :alt: NTHM面板出厂
+   :alt: NTHM Panel Factory Reset

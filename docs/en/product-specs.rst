@@ -1,38 +1,38 @@
-产品技术参数
-============
+Product Specifications
+======================
 
-测量范围和精度
---------------
+Measurement Range and Accuracy
+------------------------------
 
-- 温度测量范围：-25 ~ +65 ℃
-- 温度典型精度：±0.2 °C (@ 0 ~ 65 °C), ±0.5 °C (@全范围)
-- 温度最大误差：±0.4 °C (@ 0 ~ 65 °C), ±0.8 °C (@全范围)
+- Temperature measurement range: -25 ~ +65 °C
+- Temperature typical accuracy: ±0.2 °C (@ 0 ~ 65 °C), ±0.5 °C (@ full range)
+- Temperature maximum error: ±0.4 °C (@ 0 ~ 65 °C), ±0.8 °C (@ full range)
 
 --------------------
 
-- 相对湿度测量范围：0 ~ 100 %RH
-- 相对湿度典型精度：±2 %RH (@ 10 ~ 90 %RH), ±3 %RH (@全范围)
-- 相对湿度最大误差：±3.5 %RH (@ 10 ~ 90 %RH), ±5%RH (@全范围)
+- Relative humidity measurement range: 0 ~ 100 %RH
+- Relative humidity typical accuracy: ±2 %RH (@ 10 ~ 90 %RH), ±3 %RH (@ full range)
+- Relative humidity maximum error: ±3.5 %RH (@ 10 ~ 90 %RH), ±5%RH (@ full range)
 
-设备电源
---------
+Device Power Supply
+-------------------
 
-- 支持标准USB Type-C 5V供电。额定工作电流100mA，峰值工作电流小于200mA。
-- 支持DC电源端子供电，额定输入电压DC12V，范围DC9~28V。
+- Supports standard USB Type-C 5V power supply. Rated operating current 100mA, peak operating current less than 200mA.
+- Supports DC power terminal supply, rated input voltage DC12V, range DC9~28V.
 
-WLAN 无线通讯
--------------
+WLAN Wireless Communication
+---------------------------
 
-支持 IEEE 802.11 b/g/n 标准 2.4 GHz 频段 Wi-Fi 网络。
+Supports IEEE 802.11 b/g/n standard 2.4 GHz band Wi-Fi network.
 
-TTL 3.3V UART串行配置接口
--------------------------
+TTL 3.3V UART Serial Configuration Interface
+--------------------------------------------
 
 .. list-table::
    :header-rows: 1
-   
-   * - 引脚
-     - 功能描述
+
+   * - Pin
+     - Function Description
    * - TXD
      - Transmit pin
    * - RXD
@@ -40,9 +40,9 @@ TTL 3.3V UART串行配置接口
    * - GND
      - Signal ground pin
 
-此接口一般只用于工厂调试模式。
+This interface is generally only used for factory debugging mode.
 
-设备尺寸
---------
+Device Dimensions
+-----------------
 
-- 长x宽x高：86 x 86 x 43mm
+- Length x Width x Height: 86 x 86 x 43mm

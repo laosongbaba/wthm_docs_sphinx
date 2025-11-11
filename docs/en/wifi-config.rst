@@ -1,48 +1,48 @@
-Wi-Fi配网说明
-=============
+Wi-Fi Network Configuration Guide
+=================================
 
-为使 WTHM 设备联网，你需要为其配置当前可用的Wi-Fi网络信息，包括Wi-Fi AP的网络名称（SSID）和密码。
+To connect the WTHM device to the internet, you need to configure the available Wi-Fi network information for it, including the network name (SSID) and password of the Wi-Fi AP.
 
 .. note::
-   WTHM 设备支持 IEEE 802.11 b/g/n 标准2.4 GHz 频段 Wi-Fi网络，暂不支持5G 频段 Wi-Fi网络。
+   The WTHM device supports IEEE 802.11 b/g/n standard 2.4 GHz band Wi-Fi networks and does not currently support 5G band Wi-Fi networks.
 
-1. 进入配网模式
----------------
+1. Enter Configuration Mode
+---------------------------
 
-在 WTHM 设备面板上 **同时** 按住 **↑** 和 **↓** 按键3秒钟进入Wi-Fi配网流程。
-当液晶屏显示 "Entering setup..." 后可松开按键。
+On the WTHM device panel, **simultaneously** press and hold the **↑** and **↓** buttons for 3 seconds to enter the Wi-Fi configuration process.
+After the LCD displays "Entering setup...", you can release the buttons.
 
-.. figure:: _static/images/up-down-hold.png
+.. figure:: /_static/images/up-down-hold.png
    :width: 180
    :alt: up-down-hold
 
-当液晶屏显示 **Wi-Fi AP 二维码** 时表示设备已成功进入Wi-Fi配网模式。
+When the LCD displays the **Wi-Fi AP QR code**, the device has successfully entered Wi-Fi configuration mode.
 
-.. figure:: _static/images/wifi-ap.png
+.. figure:: /_static/images/wifi-ap.png
    :width: 180
    :alt: Wi-Fi AP
 
-2. 使用手机（或Pad）进行配网
-----------------------------
+2. Configure using Mobile Phone (or Pad)
+----------------------------------------
 
-用手机（或Pad）扫描设备液晶屏上显示的二维码。
+Use your mobile phone (or Pad) to scan the QR code displayed on the device LCD.
 
 .. note::
-   请使用 iOS / Android **系统级** 二维码扫描功能，常见可选的有：
+   Please use the iOS / Android **system-level** QR code scanning function. Common options include:
 
-   - 系统原生相机应用里的二维码扫描功能
-   - 系统 ⚙️  **设置** -> 🛜 **WLAN** 里的二维码扫描功能
-   - 系统浏览器里的二维码扫描功能
+   - QR code scanning function in the native camera app
+   - QR code scanning function in system ⚙️ **Settings** -> 🛜 **WLAN**
+   - QR code scanning function in system browsers
 
-扫描二维码过程手机系统如有提示连接 「🛜 WTHM-xxx」 Wi-Fi网络的选项，请选择 **是** 。
+If your phone prompts to connect to the 「🛜 WTHM-xxx」 Wi-Fi network during QR code scanning, please select **Yes**.
 
-手机成功连接上 WTHM 设备的Wi-Fi网络后，大部分手机系统会自动跳转到配置页面。
+After your mobile phone successfully connects to the WTHM device's Wi-Fi network, most phone systems will automatically redirect to the configuration page.
 
-.. figure:: _static/images/wifi-config.jpeg
+.. figure:: /_static/images/wifi-config.jpeg
    :width: 360
    :alt: Wi-Fi config
 
-在配置页面里输入设备所要连接的Wi-Fi网络名称（SSID）和密码后，点击 **Submit** 提交配置。
+After entering the Wi-Fi network name (SSID) and password that the device needs to connect to, click **Submit** to submit the configuration.
 
 .. note::
    如你的手机未能正常跳转到配置页面，请参考这一 :doc:`详细指引 <detailed-instructions>` 。

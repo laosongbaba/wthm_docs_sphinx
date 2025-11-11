@@ -12,13 +12,13 @@ Wi-Fi配网说明
 在 WTHM 设备面板上 **同时** 按住 **↑** 和 **↓** 按键3秒钟进入Wi-Fi配网流程。
 当液晶屏显示 "Entering setup..." 后可松开按键。
 
-.. figure:: _static/images/up-down-hold.png
+.. figure:: /_static/images/up-down-hold.png
    :width: 180
    :alt: up-down-hold
 
 当液晶屏显示 **Wi-Fi AP 二维码** 时表示设备已成功进入Wi-Fi配网模式。
 
-.. figure:: _static/images/wifi-ap.png
+.. figure:: /_static/images/wifi-ap.png
    :width: 180
    :alt: Wi-Fi AP
 
@@ -38,7 +38,7 @@ Wi-Fi配网说明
 
 手机成功连接上 WTHM 设备的Wi-Fi网络后，大部分手机系统会自动跳转到配置页面。
 
-.. figure:: _static/images/wifi-config.jpeg
+.. figure:: /_static/images/wifi-config.jpeg
    :width: 360
    :alt: Wi-Fi config
 
