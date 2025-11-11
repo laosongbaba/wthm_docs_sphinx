@@ -6,6 +6,8 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
+import os
+
 project = 'WTHM IoT Device Documentation'
 copyright = '2025, Monigear'
 author = 'Monigear'
@@ -19,9 +21,19 @@ extensions = [
 ]
 
 templates_path = ['_templates']
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
-language = 'zh_CN'
+# Get language from environment variable
+language_env = os.environ.get('SPHINX_LANGUAGE', 'zh_CN')  # Default to Chinese
+
+# Set source exclusion patterns based on language
+if language_env.startswith('en'):
+    # English documentation - exclude Chinese files
+    exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'zh/**']
+    language = 'en'
+else:
+    # Chinese documentation (default) - exclude English files
+    exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'en/**']
+    language = 'zh_CN'
 
 # MyST configuration
 myst_enable_extensions = [
@@ -62,6 +74,14 @@ html_theme_options = {
     'includehidden': True,
     'titles_only': False
 }
+
+# Set different project names for different languages
+if language.startswith('en'):
+    project = 'WTHM IoT Device Documentation'
+    html_title = "WTHM IoT Device Documentation"
+else:  # Chinese
+    project = 'WTHM IoT设备文档'
+    html_title = "WTHM IoT设备文档"
 
 # -- Options for LaTeX output -------------------------------------------------
 

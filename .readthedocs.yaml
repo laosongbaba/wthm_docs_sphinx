@@ -13,9 +13,15 @@ python:
   install:
     - requirements: requirements.txt
 
+# For multilingual setup, we'll configure the Sphinx build command directly
 sphinx:
   configuration: docs/conf.py
   fail_on_warning: false
+
+# To build different languages in RTD, you would set environment variables
+# in the RTD project settings:
+# For English project: SPHINX_LANGUAGE=en
+# For Chinese project: SPHINX_LANGUAGE=zh_CN
 
 formats:
   - htmlzip
