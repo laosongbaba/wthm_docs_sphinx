@@ -1,6 +1,6 @@
 .. ifconfig:: language == 'zh_CN'
 
-   Welcome
+   欢迎
    ====
 
    .. include:: zh_main.rst
