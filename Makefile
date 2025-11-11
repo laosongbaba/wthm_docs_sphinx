@@ -20,11 +20,11 @@ help:
 
 # Build Chinese documentation
 zh:
-	@$(SPHINXBUILD) -M html "$(ZHSOURCEDIR)" "$(BUILDDIR)/zh" $(SPHINXOPTS) -D language='zh_CN'
+	@cd "$(ZHSOURCEDIR)" && $(SPHINXBUILD) -M html "." "../../$(BUILDDIR)/zh" $(SPHINXOPTS)
 
 # Build English documentation
 en:
-	@$(SPHINXBUILD) -M html "$(ENSOURCEDIR)" "$(BUILDDIR)/en" $(SPHINXOPTS) -D language='en'
+	@cd "$(ENSOURCEDIR)" && $(SPHINXBUILD) -M html "." "../../$(BUILDDIR)/en" $(SPHINXOPTS)
 
 # Catch-all target: route all unknown targets to Sphinx-build
 %: Makefile
