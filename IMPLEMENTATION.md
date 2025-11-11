@@ -27,6 +27,7 @@ wthm_docs_sphinx/
 │   ├── en_wifi-config.rst  # 英文WiFi配置内容
 │   ├── en_detailed-instructions.rst  # 英文详细说明内容
 │   └── _static/images/  # 图片资源（中英文共享）
+├── IMPLEMENTATION.md  # 实现方案文档
 ├── .readthedocs.yaml
 ├── requirements.txt
 └── Makefile
@@ -59,6 +60,7 @@ wthm_docs_sphinx/
    :maxdepth: 2
    :caption: Contents:
 
+   self
    product-specs
    panel-operations
    wifi-config
@@ -96,7 +98,22 @@ wthm_docs_sphinx/
 
 ### 7. 特殊处理
 - 主页（index.rst）直接显示欢迎内容，访问根URL时直接看到主内容
-- 避免了index.html和main.html的内容重复问题
 - 左侧导航目录根据语言正确显示内容，无重复现象
+- PDF版本中无重复章节问题
+
+### 8. 维护和使用说明
+- **推荐构建方式**：使用Read the Docs平台远程构建，无需本地构建
+- **内容更新**：修改`zh_*.rst`和`en_*.rst`文件以更新中英文内容
+- **图片共享**：所有图片在`_static/images/`目录共享，RST文件使用`/_static/images/`路径引用
+- **自动部署**：推送代码后RTD自动构建并发布新版本
+- **导航结构**：标准命名的RST文件（main.rst等）作为入口，语言特定内容在zh_*.rst/en_*.rst中
+- **PDF生成**：配置已优化，避免索引和重复章节问题
+
+### 9. 项目特点
+- **多语言共享代码库**：中英文在同一仓库维护
+- **自动语言检测**：基于RTD环境变量自动切换语言
+- **图片资源共享**：同一图片资源供中英文使用
+- **标准Sphinx流程**：符合Sphinx文档标准
+- **RTD集成**：与Read the Docs平台完全集成
 
 此实现方案既保持了中英文内容的独立性，又能与RTD的翻译机制良好兼容，实现了预期的所有功能。
