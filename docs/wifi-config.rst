@@ -1,4 +1,4 @@
-Wi-Fi Configuration
+|wifi_config_title|
 ===================
 
 .. ifconfig:: language == 'zh_CN'

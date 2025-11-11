@@ -13,7 +13,7 @@
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents and Navigation:
+   :caption: |contents_caption|
 
    main
    product-specs

@@ -1,5 +1,5 @@
-Product Specifications
-======================
+|product_specs_title|
+=====================
 
 .. ifconfig:: language == 'zh_CN'
 

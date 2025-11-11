@@ -1,5 +1,5 @@
-Detailed Instructions
-=====================
+|detailed_instr_title|
+======================
 
 .. ifconfig:: language == 'zh_CN'
 

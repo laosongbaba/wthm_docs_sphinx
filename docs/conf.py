@@ -30,6 +30,15 @@ if language_env.startswith('en'):
     copyright = '2025, Monigear'
     author = 'Monigear'
     language = 'en'
+    # Define replacement variables for English
+    rst_epilog = """
+.. |main_title| replace:: Welcome
+.. |product_specs_title| replace:: Product Specifications
+.. |panel_ops_title| replace:: Panel Operations
+.. |wifi_config_title| replace:: Wi-Fi Configuration
+.. |detailed_instr_title| replace:: Detailed Instructions
+.. |contents_caption| replace:: Contents:
+"""
     # In this approach, we don't exclude files as we use standard names with conditional includes
     exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 else:
@@ -37,6 +46,15 @@ else:
     copyright = '2025, Monigear'
     author = 'Monigear'
     language = 'zh_CN'
+    # Define replacement variables for Chinese
+    rst_epilog = """
+.. |main_title| replace:: 欢迎
+.. |product_specs_title| replace:: 产品技术参数
+.. |panel_ops_title| replace:: 液晶屏显示及按键说明
+.. |wifi_config_title| replace:: Wi-Fi配网说明
+.. |detailed_instr_title| replace:: Wi-Fi配网详细指引
+.. |contents_caption| replace:: 目录:
+"""
     # In this approach, we don't exclude files as we use standard names with conditional includes
     exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 

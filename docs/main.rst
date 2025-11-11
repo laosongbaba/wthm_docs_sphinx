@@ -1,5 +1,5 @@
-Main Page
-=========
+|main_title|
+============
 
 .. ifconfig:: language == 'zh_CN'
    
