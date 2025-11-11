@@ -8,8 +8,22 @@
 
 import os
 
-# Get language from environment variable
-language_env = os.environ.get('SPHINX_LANGUAGE', 'zh_CN')
+# Determine language based on RTD environment or environment variable
+import os
+
+# First, check if we're on RTD and try to determine from the language subdomain
+rtd_language = os.environ.get('READTHEDOCS_LANGUAGE', None)
+env_language = os.environ.get('SPHINX_LANGUAGE', None)
+
+if env_language:
+    # Use environment variable if set
+    language_env = env_language
+elif rtd_language:
+    # Use RTD language if available
+    language_env = rtd_language
+else:
+    # Default fallback
+    language_env = 'zh_CN'
 
 if language_env.startswith('en'):
     project = 'WTHM IoT Device Documentation'
