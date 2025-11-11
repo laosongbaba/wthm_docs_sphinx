@@ -1,7 +1,7 @@
-.. ifconfig:: language == 'zh_CN'
+.. only:: zh_CN
 
    .. include:: zh_wifi-config.rst
 
-.. ifconfig:: language != 'zh_CN'
+.. only:: en
 
    .. include:: en_wifi-config.rst

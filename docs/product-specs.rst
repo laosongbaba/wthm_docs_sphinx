@@ -1,7 +1,7 @@
-.. ifconfig:: language == 'zh_CN'
+.. only:: zh_CN
 
    .. include:: zh_product-specs.rst
 
-.. ifconfig:: language != 'zh_CN'
+.. only:: en
 
    .. include:: en_product-specs.rst
