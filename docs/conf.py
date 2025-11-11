@@ -49,6 +49,9 @@ extensions = [
     'sphinx.ext.ifconfig',  # For conditional content
 ]
 
+# Also add 'only' directive support which is built-in but needs to be enabled for language-specific content
+# No additional extension needed as 'only' is built-in
+
 templates_path = ['_templates']
 
 # MyST configuration
