@@ -11,12 +11,12 @@
       :caption: 目录:
 
       zh_main
-      zh_product-specs
+      zh_product-specs  
       zh_panel-operations
       zh_wifi-config
       zh_detailed-instructions
 
-.. ifconfig:: language != 'zh_CN'
+.. ifconfig:: language == 'en' or language.startswith('en')
 
    Welcome to WTHM IoT Device Documentation!
    =========================================
