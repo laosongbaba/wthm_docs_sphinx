@@ -1,6 +1,3 @@
-Home
-====
-
 .. ifconfig:: language == 'zh_CN'
 
    欢迎
@@ -19,6 +16,7 @@ Home
    :maxdepth: 2
    :caption: Contents:
 
+   self
    product-specs
    panel-operations
    wifi-config
