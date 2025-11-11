@@ -30,7 +30,7 @@ wthm_docs_sphinx/
 ├── IMPLEMENTATION.md  # 实现方案文档
 ├── .readthedocs.yaml
 ├── requirements.txt
-└── Makefile
+└── build_docs.sh      # 本地构建脚本
 ```
 
 ### 2. 语言实现机制
@@ -108,6 +108,19 @@ wthm_docs_sphinx/
 - **自动部署**：推送代码后RTD自动构建并发布新版本
 - **导航结构**：标准命名的RST文件（main.rst等）作为入口，语言特定内容在zh_*.rst/en_*.rst中
 - **PDF生成**：配置已优化，避免索引和重复章节问题
+- **本地构建**：使用`build_docs.sh`脚本进行本地构建和预览
+  - `./build_docs.sh` 或 `./build_docs.sh zh/cn/chinese` - 构建中文版本（默认）
+  - `./build_docs.sh en/english` - 构建英文版本
+  - `./build_docs.sh all` - 构建中英文两个版本
+- **本地预览**：构建完成后，可通过以下方式预览
+  - **直接打开文件**：在浏览器中打开对应HTML文件
+    - 中文版：`docs/_build/html_zh/index.html`
+    - 英文版：`docs/_build/html_en/index.html`
+    - 两个版本：同时生成在上述两个目录中
+  - **HTTP服务器方式**（适用于无GUI环境或需要远程访问）：
+    1. 进入对应构建目录：`cd docs/_build/html_zh` 或 `cd docs/_build/html_en`
+    2. 启动HTTP服务器：`python3 -m http.server 8000`
+    3. 在浏览器中访问：`http://<服务器地址>:8000`
 
 ### 9. 项目特点
 - **多语言共享代码库**：中英文在同一仓库维护
