@@ -1,3 +1,6 @@
+Product Specifications
+======================
+
 .. ifconfig:: language == 'zh_CN'
 
    .. include:: zh_product-specs.rst

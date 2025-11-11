@@ -1,3 +1,6 @@
+Panel Operations
+================
+
 .. ifconfig:: language == 'zh_CN'
 
    .. include:: zh_panel-operations.rst

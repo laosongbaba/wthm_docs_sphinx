@@ -1,3 +1,6 @@
+Detailed Instructions
+=====================
+
 .. ifconfig:: language == 'zh_CN'
 
    .. include:: zh_detailed-instructions.rst
