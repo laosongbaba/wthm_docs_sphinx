@@ -7,7 +7,6 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 import os
-from pathlib import Path
 
 # Get language from environment variable
 language_env = os.environ.get('SPHINX_LANGUAGE', 'zh_CN')
@@ -17,14 +16,11 @@ if language_env.startswith('en'):
     copyright = '2025, Monigear'
     author = 'Monigear'
     language = 'en'
-    # Use the English RST files
-    # Note: This is a special case for RTD where we need to adjust the source based on language
 else:
     project = 'WTHM IoT设备文档'
     copyright = '2025, Monigear'
     author = 'Monigear'
     language = 'zh_CN'
-    # Use the Chinese RST files
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -35,12 +31,7 @@ extensions = [
 ]
 
 templates_path = ['_templates']
-
-# Set source exclusion patterns based on language
-if language == 'en':
-    exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'zh/**']
-else:  # Chinese
-    exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'en/**']
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 # MyST configuration
 myst_enable_extensions = [
@@ -82,14 +73,6 @@ html_theme_options = {
     'titles_only': False
 }
 
-# Set different project names for different languages
-if language.startswith('en'):
-    project = 'WTHM IoT Device Documentation'
-    html_title = "WTHM IoT Device Documentation"
-else:  # Chinese
-    project = 'WTHM IoT设备文档'
-    html_title = "WTHM IoT设备文档"
-
 # -- Options for LaTeX output -------------------------------------------------
 
 latex_elements = {
@@ -122,6 +105,6 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    ('index', 'WTHM_IoT_Docs.tex', 'WTHM IoT Device Documentation',
+    ('index', 'WTHM_IoT_Docs.tex', project,  # Use dynamic project name
      'Monigear', 'manual'),
 ]

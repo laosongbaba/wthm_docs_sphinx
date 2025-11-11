@@ -3,12 +3,12 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-WTHM IoT设备文档
-================
+Welcome to WTHM IoT Device Documentation!
+=========================================
 
 .. toctree::
    :maxdepth: 2
-   :caption: 目录:
+   :caption: Contents:
 
    main
    product-specs
