@@ -10,11 +10,11 @@
       :maxdepth: 2
       :caption: 目录:
 
-      zh_main
-      zh_product-specs  
-      zh_panel-operations
-      zh_wifi-config
-      zh_detailed-instructions
+      main
+      product-specs  
+      panel-operations
+      wifi-config
+      detailed-instructions
 
 .. ifconfig:: language == 'en' or language.startswith('en')
 
@@ -25,11 +25,11 @@
       :maxdepth: 2
       :caption: Contents:
 
-      en_main
-      en_product-specs
-      en_panel-operations
-      en_wifi-config
-      en_detailed-instructions
+      main
+      product-specs
+      panel-operations
+      wifi-config
+      detailed-instructions
 
 Indices and tables
 ==================

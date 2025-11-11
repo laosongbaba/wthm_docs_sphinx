@@ -30,15 +30,15 @@ if language_env.startswith('en'):
     copyright = '2025, Monigear'
     author = 'Monigear'
     language = 'en'
-    # Exclude Chinese files when building English version
-    exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'zh_*.rst']
+    # In this approach, we don't exclude files as we use standard names with conditional includes
+    exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 else:
     project = 'WTHM IoT设备文档'
     copyright = '2025, Monigear'
     author = 'Monigear'
     language = 'zh_CN'
-    # Exclude English files when building Chinese version
-    exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'en_*.rst']
+    # In this approach, we don't exclude files as we use standard names with conditional includes
+    exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
