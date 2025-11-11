@@ -1,0 +1,102 @@
+# WTHM IoT设备文档多语言实现方案
+
+## 项目目标
+实现WTHM IoT设备文档的中英文双语版本，托管在Read the Docs平台上，并通过RTD的翻译功能实现页面间语言切换。
+
+## 最终实现方案
+
+### 1. 项目结构
+```
+wthm_docs_sphinx/
+├── docs/
+│   ├── conf.py
+│   ├── index.rst  # 主页（包含欢迎内容和导航）
+│   ├── main.rst  # 欢迎页面
+│   ├── product-specs.rst  # 产品规格
+│   ├── panel-operations.rst  # 面板操作
+│   ├── wifi-config.rst  # WiFi配置
+│   ├── detailed-instructions.rst  # 详细说明
+│   ├── zh_main.rst  # 中文欢迎页面内容
+│   ├── zh_product-specs.rst  # 中文产品规格内容
+│   ├── zh_panel-operations.rst  # 中文面板操作内容
+│   ├── zh_wifi-config.rst  # 中文WiFi配置内容
+│   ├── zh_detailed-instructions.rst  # 中文详细说明内容
+│   ├── en_main.rst  # 英文欢迎页面内容
+│   ├── en_product-specs.rst  # 英文产品规格内容
+│   ├── en_panel-operations.rst  # 英文面板操作内容
+│   ├── en_wifi-config.rst  # 英文WiFi配置内容
+│   ├── en_detailed-instructions.rst  # 英文详细说明内容
+│   └── _static/images/  # 图片资源（中英文共享）
+├── .readthedocs.yaml
+├── requirements.txt
+└── Makefile
+```
+
+### 2. 语言实现机制
+- 使用Sphinx的`ifconfig`指令根据`READTHEDOCS_LANGUAGE`环境变量判断当前语言
+- 在每个标准命名的RST文件中使用条件指令显示对应语言内容
+- 所有图片资源在`_static/images/`目录中对中英文版本共享
+
+### 3. 具体实现方式
+
+**主页（index.rst）：**
+```rst
+.. ifconfig:: language == 'zh_CN'
+
+   欢迎
+   ====
+
+   .. include:: zh_main.rst
+
+.. ifconfig:: language != 'zh_CN'
+
+   Welcome
+   =======
+
+   .. include:: en_main.rst
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+   product-specs
+   panel-operations
+   wifi-config
+   detailed-instructions
+```
+
+**其他页面（如main.rst）：**
+```rst
+|main_title|
+============
+
+.. ifconfig:: language == 'zh_CN'
+   
+   .. include:: zh_main.rst
+
+.. ifconfig:: language != 'zh_CN'
+   
+   .. include:: en_main.rst
+```
+
+### 4. Sphinx配置（conf.py）
+- 根据`READTHEDOCS_LANGUAGE`环境变量设置`language`参数
+- 通过`rst_epilog`定义语言特定的替换变量
+- 语言相关的项目信息（如项目名）根据语言环境动态设置
+
+### 5. RTD配置
+- 在RTD平台上创建两个项目（中英文）
+- 设置翻译关系，使两个项目相互关联
+- 用于语言切换功能
+
+### 6. 语言切换实现
+- RTD内置的翻译切换功能可正常工作
+- 访问`/zh-cn/latest/`显示中文版，`/en/latest/`显示英文版
+- 右下角语言切换按钮可在两个版本间切换
+
+### 7. 特殊处理
+- 主页（index.rst）直接显示欢迎内容，访问根URL时直接看到主内容
+- 避免了index.html和main.html的内容重复问题
+- 左侧导航目录根据语言正确显示内容，无重复现象
+
+此实现方案既保持了中英文内容的独立性，又能与RTD的翻译机制良好兼容，实现了预期的所有功能。
