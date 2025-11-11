@@ -12,3 +12,9 @@
 2. 错误：使用only指令在某些RTD环境中导致内容不显示
 3. 错误：使用rst_epilog替换变量但在页面内容中直接显示未解析的变量名
 4. 解决方案：将toctree放在ifconfig条件块外，只保留一个toctree定义；使用ifconfig在页面内容中显示不同语言；避免直接在文本中使用未被正确处理的替换变量
+- WTHM文档项目本地构建和预览：
+1. 本地构建脚本：build_docs.sh（已删除不匹配的Makefile）
+2. 构建命令：./build_docs.sh [zh|en|all]，支持中英文版本单独或同时构建
+3. 本地预览：可直接打开HTML文件或使用python3 -m http.server 8000启动服务器进行预览
+4. 构建输出：中文版在docs/_build/html_zh，英文版在docs/_build/html_en
+5. 无GUI环境预览：在构建目录启动HTTP服务器，从客户端浏览器访问
