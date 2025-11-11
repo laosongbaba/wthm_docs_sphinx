@@ -13,15 +13,20 @@ python:
   install:
     - requirements: requirements.txt
 
-# For multilingual setup, we'll configure the Sphinx build command directly
+# Note: For multilingual setup with separate source directories,
+# the sphinx configuration path must match the source directory
+# as set in the RTD project admin panel.
+# Chinese project: configuration should point to docs/zh/conf.py
+# English project: configuration should point to docs/en/conf.py
+# This needs to be set in RTD admin panel for each project separately
 sphinx:
-  configuration: docs/conf.py
+  configuration: docs/conf.py  # This should be updated in RTD admin for each project
   fail_on_warning: false
 
-# To build different languages in RTD, you would set environment variables
-# in the RTD project settings:
-# For English project: SPHINX_LANGUAGE=en
-# For Chinese project: SPHINX_LANGUAGE=zh_CN
+# For RTD to use different source directories per project:
+# 1. Chinese project admin: Advanced Settings -> Source Code Directory: docs/zh
+# 2. English project admin: Advanced Settings -> Source Code Directory: docs/en
+# 3. Each directory has its own conf.py file (already created)
 
 formats:
   - htmlzip

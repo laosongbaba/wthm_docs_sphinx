@@ -7,17 +7,24 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 import os
-import sys
 from pathlib import Path
 
-# Determine language based on whether we're in the 'zh' or 'en' subdirectory
-# This works when RTD sets the source directory to docs/zh or docs/en
-current_dir = Path(__file__).parent.resolve()
-parent_dir_name = current_dir.name
+# Get language from environment variable
+language_env = os.environ.get('SPHINX_LANGUAGE', 'zh_CN')
 
-project = 'WTHM IoT Device Documentation'
-copyright = '2025, Monigear'
-author = 'Monigear'
+if language_env.startswith('en'):
+    project = 'WTHM IoT Device Documentation'
+    copyright = '2025, Monigear'
+    author = 'Monigear'
+    language = 'en'
+    # Use the English RST files
+    # Note: This is a special case for RTD where we need to adjust the source based on language
+else:
+    project = 'WTHM IoT设备文档'
+    copyright = '2025, Monigear'
+    author = 'Monigear'
+    language = 'zh_CN'
+    # Use the Chinese RST files
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -29,29 +36,7 @@ extensions = [
 
 templates_path = ['_templates']
 
-# Determine language based on the directory name
-if parent_dir_name == 'en':
-    language = 'en'
-    project = 'WTHM IoT Device Documentation'
-    html_title = "WTHM IoT Device Documentation"
-elif parent_dir_name == 'zh':
-    language = 'zh_CN'
-    project = 'WTHM IoT设备文档'
-    html_title = "WTHM IoT设备文档"
-else:
-    # For backwards compatibility or when running from docs root
-    # Use environment variable
-    language_env = os.environ.get('SPHINX_LANGUAGE', 'zh_CN')
-    if language_env.startswith('en'):
-        language = 'en'
-        project = 'WTHM IoT Device Documentation'
-        html_title = "WTHM IoT Device Documentation"
-    else:
-        language = 'zh_CN'
-        project = 'WTHM IoT设备文档'
-        html_title = "WTHM IoT设备文档"
-
-# Set source exclusion patterns based on language to avoid cross-contamination
+# Set source exclusion patterns based on language
 if language == 'en':
     exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'zh/**']
 else:  # Chinese
@@ -110,10 +95,10 @@ else:  # Chinese
 latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
     'papersize': 'a4paper',
-    
+
     # The font size ('10pt', '11pt' or '12pt').
     'pointsize': '10pt',
-    
+
     # Additional stuff for the LaTeX preamble.
     'preamble': r'''
 \usepackage{charter}
@@ -124,10 +109,10 @@ latex_elements = {
 \let\oldfigure\figure
 \renewenvironment{figure}[1][H]{\oldfigure[#1]}{\endoldfigure}
 ''',
-    
+
     # Latex figure (float) alignment
     'figure_align': 'H',  # 使用 'H' 选项强制图片在确切位置放置
-    
+
     # 去除多余的空白页
     'classoptions': ',openany,oneside',
     'babel': '\\usepackage[english]{babel}',
