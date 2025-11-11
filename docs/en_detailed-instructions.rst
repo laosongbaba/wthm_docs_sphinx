@@ -14,4 +14,4 @@ If your mobile phone fails to redirect to the configuration page normally, pleas
 
 3. If the steps above still fail to trigger the system to pop up the configuration page, please manually open the **System Browser**, and manually enter ``http://wthm.com`` in the browser's address bar. The browser will then load and display the configuration page.
 
-:doc:`Back <wifi-config>`
+:doc:`Back <en_wifi-config>`

@@ -1,7 +1,7 @@
 .. WTHM Documentation master file
    This file will be dynamically adjusted based on the language
 
-.. only:: zh_CN or chinese
+.. ifconfig:: language == 'zh_CN'
 
    WTHM IoT设备文档
    ================
@@ -16,7 +16,7 @@
       zh_wifi-config
       zh_detailed-instructions
 
-.. only:: en or english
+.. ifconfig:: language != 'zh_CN'
 
    Welcome to WTHM IoT Device Documentation!
    =========================================

@@ -45,27 +45,27 @@ After your mobile phone successfully connects to the WTHM device's Wi-Fi network
 After entering the Wi-Fi network name (SSID) and password that the device needs to connect to, click **Submit** to submit the configuration.
 
 .. note::
-   如你的手机未能正常跳转到配置页面，请参考这一 :doc:`详细指引 <detailed-instructions>` 。
+   If your phone fails to redirect to the configuration page, please refer to this :doc:`detailed guide <en_detailed-instructions>`.
 
-3. 设备上查看Wi-Fi连接状态
---------------------------
+3. Check Wi-Fi Connection Status on Device
+------------------------------------------
 
-完成配网操作后 WTHM 设备会自动退出配网模式，并尝试连接所配置的Wi-Fi网络。
+After completing the configuration, the WTHM device will automatically exit configuration mode and attempt to connect to the configured Wi-Fi network.
 
-你可在设备液晶屏幕上查看Wi-Fi网络连接状态。
+You can check the Wi-Fi network connection status on the device LCD screen.
 
-.. note:: Wi-Fi 认证模式支持说明
+.. note:: Wi-Fi Authentication Mode Support Information
 
-   本产品在标准配网模式下，默认支持采用以下个人级安全协议 (Personal Security Protocols) 的 Wi-Fi 接入点 (AP)：
-   
-   - WPA-Personal / WPA2-Personal (基于 PSK, Pre-Shared Key)
-   - WPA3-Personal (基于 SAE, Simultaneous Authentication of Equals)
-   - WPA2/WPA3 混合/过渡模式 (Mixed/Transition Mode)
+   In standard configuration mode, this product supports the following Personal Security Protocols for Wi-Fi Access Points (AP):
 
-   如需连接至采用其他认证方式的无线网络，例如：
+   - WPA-Personal / WPA2-Personal (based on PSK, Pre-Shared Key)
+   - WPA3-Personal (based on SAE, Simultaneous Authentication of Equals)
+   - WPA2/WPA3 Mixed/Transition Mode
 
-   - 企业级认证 (Enterprise Authentication)，如 WPA/WPA2/WPA3-Enterprise (基于 802.1X/EAP)
-   - 开放网络 (Open / Unsecured Networks)
-   - 旧式 WEP 协议 (Legacy WEP protocol)
+   For connecting to wireless networks using other authentication methods, such as:
 
-   请联系我们的技术支持团队以获取高级配置指南。
+   - Enterprise Authentication, e.g. WPA/WPA2/WPA3-Enterprise (based on 802.1X/EAP)
+   - Open Networks (Open / Unsecured Networks)
+   - Legacy WEP Protocol (Legacy WEP protocol)
+
+   Please contact our technical support team for advanced configuration guidelines.

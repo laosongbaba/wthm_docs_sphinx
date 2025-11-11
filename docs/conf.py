@@ -28,6 +28,7 @@ else:
 extensions = [
     'myst_parser',  # For parsing markdown files
     'sphinx.ext.autosectionlabel',  # For linking to sections
+    'sphinx.ext.ifconfig',  # For conditional content
 ]
 
 templates_path = ['_templates']
