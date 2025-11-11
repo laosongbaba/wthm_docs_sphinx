@@ -39,6 +39,11 @@ if language_env.startswith('en'):
 .. |detailed_instr_title| replace:: Detailed Instructions
 .. |index_toc_caption| replace:: Contents
 """
+    # Add JavaScript redirect for index page in English version
+    html_context = {
+        'redirect_to_main': True,
+        'main_page': 'main.html'
+    }
     # In this approach, we don't exclude files as we use standard names with conditional includes
     exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 else:
@@ -55,6 +60,11 @@ else:
 .. |detailed_instr_title| replace:: Wi-Fi配网详细指引
 .. |index_toc_caption| replace:: 目录
 """
+    # Add JavaScript redirect for index page in Chinese version
+    html_context = {
+        'redirect_to_main': True,
+        'main_page': 'main.html'
+    }
     # In this approach, we don't exclude files as we use standard names with conditional includes
     exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 

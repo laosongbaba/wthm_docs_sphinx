@@ -1,15 +1,13 @@
 .. WTHM Documentation master file
    This file will be dynamically adjusted based on the language
 
-.. only:: zh_CN
+.. ifconfig:: language == 'zh_CN'
 
-   WTHM IoT设备文档
-   ================
+   .. include:: zh_main.rst
 
-.. only:: en
+.. ifconfig:: language != 'zh_CN'
 
-   Welcome to WTHM IoT Device Documentation!
-   =========================================
+   .. include:: en_main.rst
 
 |index_toc_caption|
 ===================
