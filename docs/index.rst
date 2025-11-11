@@ -1,3 +1,6 @@
+Home
+====
+
 .. ifconfig:: language == 'zh_CN'
 
    欢迎
