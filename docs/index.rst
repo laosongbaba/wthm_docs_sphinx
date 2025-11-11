@@ -16,6 +16,7 @@
    :maxdepth: 2
    :caption: Contents:
 
+   self
    product-specs
    panel-operations
    wifi-config
