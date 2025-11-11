@@ -1,27 +1,37 @@
 .. WTHM Documentation master file
    This file will be dynamically adjusted based on the language
 
-.. only:: zh_CN
+.. ifconfig:: language == 'zh_CN'
 
-   WTHM IoT设备文档
-   ================
+   欢迎
+   ====
 
-.. only:: en
+   .. include:: zh_main.rst
 
-   Welcome to WTHM IoT Device Documentation!
-   =========================================
+   .. toctree::
+      :maxdepth: 2
+      :caption: 目录:
 
-|index_toc_caption|
-===================
+      product-specs
+      panel-operations
+      wifi-config
+      detailed-instructions
 
-.. toctree::
-   :maxdepth: 2
+.. ifconfig:: language != 'zh_CN'
 
-   main
-   product-specs
-   panel-operations
-   wifi-config
-   detailed-instructions
+   Welcome
+   =======
+
+   .. include:: en_main.rst
+
+   .. toctree::
+      :maxdepth: 2
+      :caption: Contents:
+
+      product-specs
+      panel-operations
+      wifi-config
+      detailed-instructions
 
 Indices and tables
 ==================
