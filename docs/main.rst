@@ -1,7 +1,7 @@
-.. only:: zh_CN
+.. ifconfig:: language == 'zh_CN'
 
    .. include:: zh_main.rst
 
-.. only:: en
+.. ifconfig:: language != 'zh_CN'
 
    .. include:: en_main.rst
