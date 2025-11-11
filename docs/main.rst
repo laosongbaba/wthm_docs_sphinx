@@ -1,7 +1,7 @@
 欢迎
 ====
 
-.. figure:: ../assets/images/th.png
+.. figure:: _static/images/th.png
    :width: 240
    :alt: WTHM面板TH
 

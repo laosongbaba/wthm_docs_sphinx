@@ -46,8 +46,8 @@ html_theme = 'sphinx_rtd_theme'  # Use Read the Docs theme
 html_static_path = ['_static']
 
 # Additional configuration for Read the Docs
-html_logo = '../assets/images/th.png'
-html_favicon = '../assets/images/th.png'
+html_logo = '_static/images/th.png'
+html_favicon = '_static/images/th.png'
 
 # Theme options for Read the Docs
 html_theme_options = {
