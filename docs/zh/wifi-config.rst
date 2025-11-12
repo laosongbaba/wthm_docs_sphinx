@@ -45,7 +45,7 @@ Wi-Fi配网说明
 在配置页面里输入设备所要连接的Wi-Fi网络名称（SSID）和密码后，点击 **Submit** 提交配置。
 
 .. note::
-   如你的手机未能正常跳转到配置页面，请参考这一 :doc:`详细指引 <zh_detailed-instructions>` 。
+   如你的手机未能正常跳转到配置页面，请参考这一 :doc:`详细指引 <detailed-instructions>` 。
 
 3. 设备上查看Wi-Fi连接状态
 --------------------------

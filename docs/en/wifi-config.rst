@@ -45,7 +45,7 @@ After your mobile phone successfully connects to the WTHM device's Wi-Fi network
 After entering the Wi-Fi network name (SSID) and password that the device needs to connect to, click **Submit** to submit the configuration.
 
 .. note::
-   If your phone fails to redirect to the configuration page, please refer to this :doc:`detailed guide <en_detailed-instructions>`.
+   If your phone fails to redirect to the configuration page, please refer to this :doc:`detailed guide <detailed-instructions>`.
 
 3. Check Wi-Fi Connection Status on Device
 ------------------------------------------

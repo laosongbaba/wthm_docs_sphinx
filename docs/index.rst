@@ -3,14 +3,14 @@
    |welcome_title|
    ===============
 
-   .. include:: zh_main.rst
+   .. include:: zh/main.rst
 
 .. ifconfig:: language != 'zh_CN'
 
    |welcome_title|
    ===============
 
-   .. include:: en_main.rst
+   .. include:: en/main.rst
 
 .. toctree::
    :maxdepth: 2

@@ -3,8 +3,8 @@
 
 .. ifconfig:: language == 'zh_CN'
    
-   .. include:: zh_main.rst
+   .. include:: zh/main.rst
 
 .. ifconfig:: language != 'zh_CN'
    
-   .. include:: en_main.rst
+   .. include:: en/main.rst

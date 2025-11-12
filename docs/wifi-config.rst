@@ -3,8 +3,8 @@
 
 .. ifconfig:: language == 'zh_CN'
 
-   .. include:: zh_wifi-config.rst
+   .. include:: zh/wifi-config.rst
 
 .. ifconfig:: language != 'zh_CN'
 
-   .. include:: en_wifi-config.rst
+   .. include:: en/wifi-config.rst

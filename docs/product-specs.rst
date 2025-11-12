@@ -3,8 +3,8 @@
 
 .. ifconfig:: language == 'zh_CN'
 
-   .. include:: zh_product-specs.rst
+   .. include:: zh/product-specs.rst
 
 .. ifconfig:: language != 'zh_CN'
 
-   .. include:: en_product-specs.rst
+   .. include:: en/product-specs.rst
