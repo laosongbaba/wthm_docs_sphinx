@@ -1,7 +1,7 @@
 Welcome
 =======
 
-.. figure:: /_static/images/th.png
+.. figure:: /_static/images/th-with-sensor.png
    :width: 240
    :alt: WTHM Panel TH
 
