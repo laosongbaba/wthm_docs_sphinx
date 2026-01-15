@@ -21,6 +21,7 @@
    panel-operations
    wifi-config
    detailed-instructions
+   installation-guide
 
 Indices and tables
 ==================

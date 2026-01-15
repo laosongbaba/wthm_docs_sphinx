@@ -38,6 +38,7 @@ if language_env.startswith('en'):
 .. |panel_ops_title| replace:: Panel Operations
 .. |wifi_config_title| replace:: Wi-Fi Configuration
 .. |detailed_instr_title| replace:: Detailed Instructions
+.. |install_guide_title| replace:: Installation Guide
 """
     # In this approach, we don't exclude files as we use standard names with conditional includes
     exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
@@ -54,6 +55,7 @@ else:
 .. |panel_ops_title| replace:: 液晶屏显示及按键说明
 .. |wifi_config_title| replace:: Wi-Fi配网说明
 .. |detailed_instr_title| replace:: Wi-Fi配网详细指引
+.. |install_guide_title| replace:: 安装说明
 """
     # In this approach, we don't exclude files as we use standard names with conditional includes
     exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
