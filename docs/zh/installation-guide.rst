@@ -10,7 +10,7 @@
 
 这种方式是通过安装背板支架并使用螺丝将设备固定在墙面或平面上。
 
-.. figure:: /_static/images/wthm-install-m1.PNG
+.. figure:: /_static/images/wthm-install-m1.png
    :alt: 安装背板支架+螺丝固定方式示意图
    :width: 600px
 
@@ -21,7 +21,7 @@
 
 这种方式是通过挂件将设备悬挂在墙面或其他支撑结构上。
 
-.. figure:: /_static/images/wthm-install-m2.PNG
+.. figure:: /_static/images/wthm-install-m2.png
    :alt: 挂件安装方式示意图
    :width: 600px
 
