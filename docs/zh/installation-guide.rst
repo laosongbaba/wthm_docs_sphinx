@@ -23,6 +23,6 @@
 
 .. figure:: /_static/images/wthm-install-m2.png
    :alt: 挂件安装方式示意图
-   :width: 600px
+   :width: 450px
 
    图：挂件安装方式

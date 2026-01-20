@@ -23,6 +23,6 @@ This method involves mounting the device using hooks on a wall or other supporti
 
 .. figure:: /_static/images/wthm-install-m2.png
    :alt: Hook mount installation diagram
-   :width: 600px
+   :width: 450px
 
    Figure: Hook mount installation method
