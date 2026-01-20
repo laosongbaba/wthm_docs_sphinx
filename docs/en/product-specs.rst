@@ -5,14 +5,14 @@ Measurement Range and Accuracy
 ------------------------------
 
 - Temperature measurement range: -25 ~ +65 °C
-- Temperature typical accuracy: ±0.2 °C (@ 0 ~ 65 °C), ±0.5 °C (@ full range)
-- Temperature maximum error: ±0.4 °C (@ 0 ~ 65 °C), ±0.8 °C (@ full range)
+- Temperature typical accuracy: ±0.2 °C (from 0 ~ 65 °C), ±0.5 °C (over the full range)
+- Temperature maximum error: ±0.4 °C (from 0 ~ 65 °C), ±0.8 °C (over the full range)
 
 --------------------
 
 - Relative humidity measurement range: 0 ~ 100 %RH
-- Relative humidity typical accuracy: ±2 %RH (@ 10 ~ 90 %RH), ±3 %RH (@ full range)
-- Relative humidity maximum error: ±3.5 %RH (@ 10 ~ 90 %RH), ±5%RH (@ full range)
+- Relative humidity typical accuracy: ±2 %RH (from 10 ~ 90 %RH), ±3 %RH (over the full range)
+- Relative humidity maximum error: ±3.5 %RH (from 10 ~ 90 %RH), ±5%RH (over the full range)
 
 Device Power Supply
 -------------------
