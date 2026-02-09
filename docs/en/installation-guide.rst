@@ -19,7 +19,7 @@ This method involves installing a backplate bracket and securing the device to a
 Method 2: Hook Mount Installation
 ---------------------------------
 
-This method involves mounting the device using hooks on a wall or other supporting structure.
+This method involves mounting the device using hooks (optional accessory) on a wall or other supporting structure.
 
 .. figure:: /_static/images/wthm-install-m2.png
    :alt: Hook mount installation diagram
