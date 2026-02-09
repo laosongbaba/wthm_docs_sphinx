@@ -26,3 +26,14 @@ This method involves mounting the device using hooks (optional accessory) on a w
    :width: 450px
 
    Figure: Hook mount installation method
+
+Uninstallation Method
+---------------------
+
+To remove the product, use a flat-head screwdriver to pry open the front cover from the gap of the clips (the position marked with red circles in the figure), and then proceed with subsequent operations.
+
+.. figure:: /_static/images/wthm-uninstall.png
+   :alt: Uninstallation method diagram
+   :width: 600px
+
+   Figure: Uninstallation method
