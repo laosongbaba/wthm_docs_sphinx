@@ -8,7 +8,7 @@ Product Documentation
 
 All product documentation is available for download at: `https://www.monigear.com/doc.html <https://www.monigear.com/doc.html>`_
 
-Network Configuration Verification
+Network Configuration Tool
 ----------------------------------
 
 After purchasing the device, the first step is to set up the network and verify proper operation. You can download the configuration tool for all our devices, along with the software manual, from:
