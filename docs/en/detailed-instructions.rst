@@ -12,6 +12,6 @@ If your mobile phone fails to redirect to the configuration page normally, pleas
 
 2. After confirming that the phone is currently connected to the ``WTHM-xxx`` Wi-Fi network, check whether there is a prompt such as `Authentication Required/Login` below the network name, or whether there is a prompt such as `Login to WLAN Network` in the system notification bar. Click the `Authentication/Login` prompt to trigger the system to pop up the configuration page.
 
-3. If the steps above still fail to trigger the system to pop up the configuration page, please manually open the **System Browser**, and manually enter ``http://wthm.com`` in the browser's address bar. The browser will then load and display the configuration page.
+3. If the steps above still fail to trigger the system to pop up the configuration page, please manually open the **System Browser**, and manually enter ``http://192.168.100.1`` in the browser's address bar. The browser will then load and display the configuration page.
 
 :doc:`Back <wifi-config>`
