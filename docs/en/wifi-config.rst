@@ -44,6 +44,23 @@ After your mobile phone successfully connects to the WTHM device's Wi-Fi network
 
 After entering the Wi-Fi network name (SSID) and password that the device needs to connect to, click **Submit** to submit the configuration.
 
+**WPA Enterprise Wi-Fi Configuration**
+
+To connect to a wireless network using WPA-Enterprise security authentication, click the **"🏢 Need Enterprise/802.1X config?"** link at the bottom of the configuration page, or click the **Menu** in the upper right corner and select **WiFi Enterprise** to switch to the enterprise Wi-Fi configuration page.
+
+.. figure:: /_static/images/wifi-config-enterprise.jpg
+   :width: 360
+   :alt: Enterprise Wi-Fi config
+
+On the enterprise Wi-Fi configuration page, you need to fill in the following information:
+
+- **Wi-Fi Name (SSID)**: Select or enter the enterprise Wi-Fi network name
+- **Username (Identity)**: Enter the network account (identity)
+- **Password**: Enter the network password
+- **Advanced EAP Settings**: Click to expand advanced EAP settings (if needed)
+
+After filling in the information, click **Submit** to submit the configuration.
+
 .. note::
    If your phone fails to redirect to the configuration page, please refer to this :doc:`detailed guide <detailed-instructions>`.
 
@@ -62,10 +79,7 @@ You can check the Wi-Fi network connection status on the device LCD screen.
    - WPA3-Personal (based on SAE, Simultaneous Authentication of Equals)
    - WPA2/WPA3 Mixed/Transition Mode
 
-   For connecting to wireless networks using other authentication methods, such as:
+   For Enterprise Authentication, such as WPA/WPA2/WPA3-Enterprise (based on 802.1X/EAP),
+   please refer to the **WPA Enterprise Wi-Fi Configuration** section above for configuration.
 
-   - Enterprise Authentication, e.g. WPA/WPA2/WPA3-Enterprise (based on 802.1X/EAP)
-   - Open Networks (Open / Unsecured Networks)
-   - Legacy WEP Protocol (Legacy WEP protocol)
-
-   Please contact our technical support team for advanced configuration guidelines.
+   For other authentication methods (such as open networks, legacy WEP protocol, etc.), please contact our technical support team for assistance.
