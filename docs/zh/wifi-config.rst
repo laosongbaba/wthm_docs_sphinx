@@ -44,6 +44,23 @@ Wi-Fi配网说明
 
 在配置页面里输入设备所要连接的Wi-Fi网络名称（SSID）和密码后，点击 **Submit** 提交配置。
 
+**WPA Enterprise（企业级）Wi-Fi 配置**
+
+如需连接采用 WPA-Enterprise 安全认证的无线网络，在配置页面点击底部的 **"🏢 Need Enterprise/802.1X config?"** 链接，或点击右上角 **Menu** 菜单选择 **WiFi Enterprise** 项，可切换到企业级Wi-Fi配置页面。
+
+.. figure:: /_static/images/wifi-config-enterprise.jpg
+   :width: 360
+   :alt: Enterprise Wi-Fi config
+
+在企业级Wi-Fi配置页面中，需要填写以下信息：
+
+- **Wi-Fi Name (SSID)**：选择或输入企业级Wi-Fi网络名称
+- **Username (Identity)**：输入网络账户（身份标识）
+- **Password**：输入网络密码
+- **Advanced EAP Settings**：点击可展开高级EAP设置（如需要）
+
+填写完成后，点击 **Submit** 提交配置。
+
 .. note::
    如你的手机未能正常跳转到配置页面，请参考这一 :doc:`详细指引 <detailed-instructions>` 。
 
@@ -62,10 +79,7 @@ Wi-Fi配网说明
    - WPA3-Personal (基于 SAE, Simultaneous Authentication of Equals)
    - WPA2/WPA3 混合/过渡模式 (Mixed/Transition Mode)
 
-   如需连接至采用其他认证方式的无线网络，例如：
+   对于企业级认证 (Enterprise Authentication)，如 WPA/WPA2/WPA3-Enterprise (基于 802.1X/EAP)，
+   请参考上文 **WPA Enterprise（企业级）Wi-Fi 配置** 部分进行配置。
 
-   - 企业级认证 (Enterprise Authentication)，如 WPA/WPA2/WPA3-Enterprise (基于 802.1X/EAP)
-   - 开放网络 (Open / Unsecured Networks)
-   - 旧式 WEP 协议 (Legacy WEP protocol)
-
-   请联系我们的技术支持团队以获取高级配置指南。
+   对于其他认证方式（如开放网络、旧式 WEP 协议等），请联系我们的技术支持团队以获取帮助。
