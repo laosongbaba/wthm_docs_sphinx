@@ -38,7 +38,7 @@ If your phone prompts to connect to the 「🛜 WTHM-xxx」 Wi-Fi network during
 
 After your mobile phone successfully connects to the WTHM device's Wi-Fi network, most phone systems will automatically redirect to the configuration page.
 
-.. figure:: /_static/images/wifi-config.jpeg
+.. figure:: /_static/images/wifi-config.jpg
    :width: 360
    :alt: Wi-Fi config
 

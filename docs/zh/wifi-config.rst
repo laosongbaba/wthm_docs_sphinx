@@ -38,7 +38,7 @@ Wi-Fi配网说明
 
 手机成功连接上 WTHM 设备的Wi-Fi网络后，大部分手机系统会自动跳转到配置页面。
 
-.. figure:: /_static/images/wifi-config.jpeg
+.. figure:: /_static/images/wifi-config.jpg
    :width: 360
    :alt: Wi-Fi config
 
