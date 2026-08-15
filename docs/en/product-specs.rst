@@ -8,9 +8,9 @@ Temperature Measurement Range and Accuracy
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. list-table::
-   :header-rows: 1
+   :stub-columns: 1
 
-   * - Parameter
+   * - Product
      - WTHM
      - WENS
    * - Measurement range
