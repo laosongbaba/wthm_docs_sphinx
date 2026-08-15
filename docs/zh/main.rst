@@ -2,7 +2,7 @@
 ====
 
 .. figure:: /_static/images/wthm-wens.png
-   :width: 240
+   :width: 480
    :alt: WTHM面板TH
 
 WTHM 系列IoT设备是Monigear自主开发的环境监测模块，主型号WTHM可实时监测环境温度、相对湿度。还有系列产品WCO2可监测环境二氧化碳浓度，WVOC可监测环境TVOC浓度。WENS带两路宽温温度探头。
