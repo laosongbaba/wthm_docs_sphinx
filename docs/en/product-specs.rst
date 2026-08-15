@@ -4,13 +4,20 @@ Product Specifications
 Measurement Range and Accuracy
 ------------------------------
 
+WTHM Series
+~~~~~~~~~~~
+
 - Temperature measurement range: -25 ~ +65 °C
 - Temperature accuracy: ±0.4 °C (from 0 ~ 65 °C), ±0.8 °C (over the full range)
 
---------------------
-
 - Relative humidity measurement range: 0 ~ 100 %RH
 - Relative humidity accuracy: ±3.5 %RH (from 10 ~ 90 %RH), ±5%RH (over the full range)
+
+WENS Series
+~~~~~~~~~~~
+
+- Temperature measurement range: -40 ~ +85 °C
+- Temperature accuracy: ±0.5 °C (from -10 ~ 85 °C), ±1 °C (over the full range)
 
 Device Power Supply
 -------------------
