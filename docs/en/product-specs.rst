@@ -11,7 +11,7 @@ Temperature Measurement Range and Accuracy
    :stub-columns: 1
 
    * - Product
-     - WTHM
+     - WTHM/WCO2/WVOC
      - WENS
    * - Measurement range
      - -25 ~ +65 °C
@@ -47,26 +47,10 @@ Device Power Supply
 WLAN Wireless Communication
 ---------------------------
 
-Supports IEEE 802.11 b/g/n standard 2.4 GHz band Wi-Fi network.
+- Supports IEEE 802.11 b/g/n standard 2.4 GHz band Wi-Fi network.
+- Wireless Security: WPA2-Personal (PSK), WPA3-Personal (SAE), WPA2-Enterprise, WPA3-Enterprise (802.1X/RADIUS)
 
-TTL 3.3V UART Serial Configuration Interface
---------------------------------------------
-
-.. list-table::
-   :header-rows: 1
-
-   * - Pin
-     - Function Description
-   * - TXD
-     - Transmit pin
-   * - RXD
-     - Receive pin
-   * - GND
-     - Signal ground pin
-
-This interface is generally only used for factory debugging mode.
-
-Device Dimensions
+Mechanical Specifications
 -----------------
 
-- Length x Width x Height: 86 x 86 x 43mm
+- Dimensions (main unit): 86 × 86 × 43 mm (L × W × H)
