@@ -1,8 +1,8 @@
 Welcome
 =======
 
-.. figure:: /_static/images/th-with-sensor.png
-   :width: 240
+.. figure:: /_static/images/wthm-wens.png
+   :width: 480
    :alt: WTHM Panel TH
 
 WTHM series IoT devices are Monigear's self-developed environmental monitoring modules. The main model WTHM can monitor temperature and humidity in real-time. Additional models include WCO2 for carbon dioxide monitoring and WVOC for TVOC monitoring.

@@ -17,8 +17,8 @@ Temperature Measurement Range and Accuracy
      - -25 ~ +65 °C
      - -40 ~ +85 °C
    * - Accuracy
-     - ±0.4 °C (from 0 ~ 65 °C), ±0.8 °C (over the full range)
-     - ±0.5 °C (from -10 ~ 85 °C), ±1 °C (over the full range)
+     - ±0.4 °C (from 0 ~ 65 °C), ±0.8 °C (full range)
+     - ±0.5 °C (from -10 ~ 85 °C), ±1 °C (full range)
 
 Humidity Measurement Range and Accuracy
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
