@@ -7,23 +7,36 @@ Measurement Range and Accuracy
 Temperature Measurement Range and Accuracy
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-WTHM
-^^^^
+.. list-table::
+   :header-rows: 1
 
-- Temperature measurement range: -25 ~ +65 °C
-- Temperature accuracy: ±0.4 °C (from 0 ~ 65 °C), ±0.8 °C (over the full range)
-
-WENS
-^^^^
-
-- Temperature measurement range: -40 ~ +85 °C
-- Temperature accuracy: ±0.5 °C (from -10 ~ 85 °C), ±1 °C (over the full range)
+   * - Parameter
+     - WTHM
+     - WENS
+   * - Measurement range
+     - -25 ~ +65 °C
+     - -40 ~ +85 °C
+   * - Accuracy
+     - ±0.4 °C (from 0 ~ 65 °C), ±0.8 °C (over the full range)
+     - ±0.5 °C (from -10 ~ 85 °C), ±1 °C (over the full range)
 
 Humidity Measurement Range and Accuracy
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Relative humidity measurement range: 0 ~ 100 %RH
 - Relative humidity accuracy: ±3.5 %RH (from 10 ~ 90 %RH), ±5%RH (over the full range)
+
+Carbon Dioxide (CO₂) Measurement Range and Accuracy
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Carbon dioxide concentration measurement range: 400 ppm – 2000 ppm
+- Carbon dioxide measurement accuracy: ±(50 ppm + 5% of reading)
+
+TVOC Measurement Range and Accuracy
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- TVOC measurement range: 0 – 10,000 ppb
+- TVOC measurement accuracy: typical error < 12% of the measured value
 
 Device Power Supply
 -------------------
