@@ -12,12 +12,12 @@ The WTHM series models extend this foundation with specialized sensing capabilit
 
 WTHM series models include:
 
-- WTHM for temperature and humidity monitoring.
+- WTHM (base model) for temperature and humidity monitoring.
 - WCO2 for Carbon Dioxide (CO₂), temperature and humidity monitoring.
 - WVOC for Total Volatile Organic Compounds (TVOC), CO₂, temperature and humidity monitoring.
 - WENS model equipped with dual wide-range temperature probes for refrigeration, freezers, aquariums, laboratories and HVAC systems.
 
-The series operates on 2.4 GHz Wi‑Fi and is powered via USB Type‑C (5 V DC).
+The series operates on 2.4 GHz Wi-Fi and is powered via USB Type-C (5 V DC).
 
 The series supports Modbus TCP, SNMP, BACnet and MQTT, and integrates with AWS IoT, Azure IoT, Tuya Cloud, Home Assistant, IFTTT and email notifications.
 
