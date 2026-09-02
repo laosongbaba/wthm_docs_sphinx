@@ -22,6 +22,7 @@
    wifi-config
    detailed-instructions
    installation-guide
+   device-configuration
    system-integration
 
 Indices and tables

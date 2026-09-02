@@ -39,6 +39,7 @@ if language_env.startswith('en'):
 .. |wifi_config_title| replace:: Wi-Fi Configuration
 .. |detailed_instr_title| replace:: Detailed Instructions
 .. |install_guide_title| replace:: Installation Guide
+.. |device_config_title| replace:: Device Configuration
 .. |system_integration_title| replace:: System Integration Guide
 """
     # In this approach, we don't exclude files as we use standard names with conditional includes
@@ -57,6 +58,7 @@ else:
 .. |wifi_config_title| replace:: Wi-Fi配网说明
 .. |detailed_instr_title| replace:: Wi-Fi配网详细指引
 .. |install_guide_title| replace:: 安装说明
+.. |device_config_title| replace:: 设备参数配置
 .. |system_integration_title| replace:: 系统集成指南
 """
     # In this approach, we don't exclude files as we use standard names with conditional includes
