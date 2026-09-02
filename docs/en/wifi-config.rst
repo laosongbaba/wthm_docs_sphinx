@@ -1,5 +1,5 @@
-Wi-Fi Network Configuration Guide
-=================================
+Wi-Fi Provisioning Guide
+========================
 
 To connect the WTHM device to the internet, you need to configure the available Wi-Fi network information for it, including the network name (SSID) and password of the Wi-Fi AP.
 
@@ -44,7 +44,7 @@ After your mobile phone successfully connects to the WTHM device's Wi-Fi network
 
 After entering the Wi-Fi network name (SSID) and password that the device needs to connect to, click **Submit** to submit the configuration.
 
-**WPA Enterprise Wi-Fi Configuration**
+**WPA Enterprise Wi-Fi Provisioning**
 
 To connect to a wireless network using WPA-Enterprise security authentication, click the **"🏢 Need Enterprise/802.1X config?"** link at the bottom of the configuration page, or click the **Menu** in the upper right corner and select **WiFi Enterprise** to switch to the enterprise Wi-Fi configuration page.
 
@@ -62,7 +62,7 @@ On the enterprise Wi-Fi configuration page, you need to fill in the following in
 After filling in the information, click **Submit** to submit the configuration.
 
 .. note::
-   If your phone fails to redirect to the configuration page, please refer to this :doc:`detailed guide <detailed-instructions>`.
+   If your phone fails to redirect to the configuration page, please refer to the **4. Detailed Steps: Manually Open the Configuration Page** section below.
 
 3. Check Wi-Fi Connection Status on Device
 ------------------------------------------
@@ -80,6 +80,22 @@ You can check the Wi-Fi network connection status on the device LCD screen.
    - WPA2/WPA3 Mixed/Transition Mode
 
    For Enterprise Authentication, such as WPA/WPA2/WPA3-Enterprise (based on 802.1X/EAP),
-   please refer to the **WPA Enterprise Wi-Fi Configuration** section above for configuration.
+   please refer to the **WPA Enterprise Wi-Fi Provisioning** section above for configuration.
 
    For other authentication methods (such as open networks, legacy WEP protocol, etc.), please contact our technical support team for assistance.
+
+4. Detailed Steps: Manually Open the Configuration Page
+-------------------------------------------------------
+
+The operation of scanning the QR code displayed on the device LCD screen with a mobile phone (or Pad, same below) essentially first connects the phone to the WTHM device's Wi-Fi network, and then relies on the phone's automatic network detection function to redirect to the configuration page, thus completing the network configuration process.
+
+If your mobile phone fails to redirect to the configuration page normally, please follow the detailed steps below:
+
+1. Please confirm that your phone successfully connects to the WTHM device's Wi-Fi network, as this is the **prerequisite** for the configuration process to work properly. You can check in the phone's **Settings** -> **WLAN** configuration page whether the current Wi-Fi network name is ``WTHM-xxx``. If not, please select one of the following operations:
+
+   - Use the QR code scanning function on the **WLAN** configuration page to scan the QR code on the device LCD to complete network connection.
+   - Manually select and connect to the ``WTHM-xxx`` network in the *Available Networks* list, password is ``wangkong``.
+
+2. After confirming that the phone is currently connected to the ``WTHM-xxx`` Wi-Fi network, check whether there is a prompt such as `Authentication Required/Login` below the network name, or whether there is a prompt such as `Login to WLAN Network` in the system notification bar. Click the `Authentication/Login` prompt to trigger the system to pop up the configuration page.
+
+3. If the steps above still fail to trigger the system to pop up the configuration page, please manually open the **System Browser**, and manually enter ``http://192.168.100.1`` in the browser's address bar. The browser will then load and display the configuration page.

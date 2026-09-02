@@ -36,8 +36,7 @@ if language_env.startswith('en'):
 .. |welcome_title| replace:: Welcome
 .. |product_specs_title| replace:: Product Specifications
 .. |panel_ops_title| replace:: Panel Operations
-.. |wifi_config_title| replace:: Wi-Fi Configuration
-.. |detailed_instr_title| replace:: Detailed Instructions
+.. |wifi_config_title| replace:: Wi-Fi Provisioning
 .. |install_guide_title| replace:: Installation Guide
 .. |device_config_title| replace:: Device Configuration
 .. |system_integration_title| replace:: System Integration Guide
@@ -56,7 +55,6 @@ else:
 .. |product_specs_title| replace:: 产品技术参数
 .. |panel_ops_title| replace:: 液晶屏显示及按键说明
 .. |wifi_config_title| replace:: Wi-Fi配网说明
-.. |detailed_instr_title| replace:: Wi-Fi配网详细指引
 .. |install_guide_title| replace:: 安装说明
 .. |device_config_title| replace:: 设备参数配置
 .. |system_integration_title| replace:: 系统集成指南
