@@ -62,7 +62,7 @@ On the enterprise Wi-Fi configuration page, you need to fill in the following in
 After filling in the information, click **Submit** to submit the configuration.
 
 .. note::
-   If your phone fails to redirect to the configuration page, please refer to the **4. Detailed Steps: Manually Open the Configuration Page** section below.
+   If your phone fails to redirect to the configuration page, please refer to the **4. Manually Open the Configuration Page If It Does Not Appear Automatically** section below.
 
 3. Check Wi-Fi Connection Status on Device
 ------------------------------------------
@@ -84,8 +84,8 @@ You can check the Wi-Fi network connection status on the device LCD screen.
 
    For other authentication methods (such as open networks, legacy WEP protocol, etc.), please contact our technical support team for assistance.
 
-4. Detailed Steps: Manually Open the Configuration Page
--------------------------------------------------------
+4. Manually Open the Configuration Page If It Does Not Appear Automatically
+---------------------------------------------------------------------------
 
 The operation of scanning the QR code displayed on the device LCD screen with a mobile phone (or Pad, same below) essentially first connects the phone to the WTHM device's Wi-Fi network, and then relies on the phone's automatic network detection function to redirect to the configuration page, thus completing the network configuration process.
 
