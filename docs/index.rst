@@ -20,8 +20,8 @@
    product-specs
    panel-operations
    wifi-config
-   installation-guide
    device-configuration
+   installation-guide
    system-integration
 
 Indices and tables
