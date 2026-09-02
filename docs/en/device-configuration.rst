@@ -16,7 +16,7 @@ You can download the configuration tool for all our devices, along with the soft
 After connecting to the same Wi-Fi AP network as the MN-WTHM, open the device configuration tool software and click **Find** to discover MN devices on the current network. If the device and the computer are not on the same network segment, you can click the **Add** button and connect through the specific IP address of the device. After choosing the target device, click **Configure** to enter the setting menu.
 
 .. figure:: /_static/images/find_device.png
-   :width: 210
+   :width: 480
    :alt: Find device
 
 3. Connecting to the Device
@@ -25,7 +25,7 @@ After connecting to the same Wi-Fi AP network as the MN-WTHM, open the device co
 Use the default password "wangkong" to connect to the device.
 
 .. figure:: /_static/images/connect_device.png
-   :width: 210
+   :width: 480
    :alt: Connect device
 
 4. Parameter Settings
@@ -34,7 +34,7 @@ Use the default password "wangkong" to connect to the device.
 After clicking **Detect**, choose one of the figure type, then click **Read Configure**.
 
 .. figure:: /_static/images/read_configure.png
-   :width: 210
+   :width: 480
    :alt: Read configure
 
 5. Applying and Saving Configuration
@@ -43,5 +43,5 @@ After clicking **Detect**, choose one of the figure type, then click **Read Conf
 After setting up the property and value, click **Apply Changes**, then click **Save and Reboot** to reboot the device.
 
 .. figure:: /_static/images/apply_configure.png
-   :width: 210
+   :width: 480
    :alt: Apply configure
