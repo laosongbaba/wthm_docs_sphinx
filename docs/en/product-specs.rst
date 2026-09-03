@@ -53,6 +53,6 @@ WLAN Wireless Communication
 Mechanical Specifications
 -------------------------
 
-- Dimensions (main unit): 86 × 86 × 43 mm (L × W × H)
-- Dimensions (metal backplate bracket): 70 × 30 mm (L × W)
-- Dimensions (plastic hook mount): 76 × 56 mm (L × W)
+- **Main unit** (L × W × H): 86 × 86 × 43 mm
+- **Metal backplate bracket** (L × W): 70 × 30 mm
+- **Plastic hook mount** (L × W): 76 × 56 mm
