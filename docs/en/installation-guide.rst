@@ -8,7 +8,7 @@ The product supports two installation methods:
 Method 1: Backplate Bracket + Screw Fixation
 --------------------------------------------
 
-This method involves installing a backplate bracket and securing the device to a wall or surface using screws.
+This method involves installing a backplate bracket and securing the device to a wall or surface using screws. The metal backplate bracket measures 70 × 30 mm (L × W).
 
 .. figure:: /_static/images/wthm-install-m1.png
    :alt: Backplate bracket and screw fixation diagram
@@ -19,7 +19,7 @@ This method involves installing a backplate bracket and securing the device to a
 Method 2: Hook Mount Installation
 ---------------------------------
 
-This method involves mounting the device using hooks (optional accessory) on a wall or other supporting structure.
+This method involves mounting the device using hooks (optional accessory) on a wall or other supporting structure. The plastic hook mount measures 76 × 56 mm (L × W).
 
 .. figure:: /_static/images/wthm-install-m2.png
    :alt: Hook mount installation diagram

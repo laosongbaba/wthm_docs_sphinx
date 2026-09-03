@@ -51,6 +51,8 @@ WLAN Wireless Communication
 - Wireless Security: WPA2-Personal (PSK), WPA3-Personal (SAE), WPA2-Enterprise, WPA3-Enterprise (802.1X/RADIUS)
 
 Mechanical Specifications
------------------
+-------------------------
 
 - Dimensions (main unit): 86 × 86 × 43 mm (L × W × H)
+- Dimensions (metal backplate bracket): 70 × 30 mm (L × W)
+- Dimensions (plastic hook mount): 76 × 56 mm (L × W)
