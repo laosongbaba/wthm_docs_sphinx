@@ -31,7 +31,7 @@ Use the default password "wangkong" to connect to the device.
 4. Parameter Settings
 ---------------------
 
-After clicking **Detect**, choose one of the figure type, then click **Read Configure**.
+After clicking **Detect**, choose one of the configure type, then click **Read Configure**.
 
 .. figure:: /_static/images/read_configure.png
    :width: 600
