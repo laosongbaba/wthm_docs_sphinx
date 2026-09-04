@@ -1,5 +1,5 @@
 |install_guide_title|
-============
+=====================
 
 .. ifconfig:: language == 'zh_CN'
 

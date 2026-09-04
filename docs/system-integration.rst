@@ -1,5 +1,5 @@
 |system_integration_title|
-============
+==========================
 
 .. ifconfig:: language == 'zh_CN'
 
