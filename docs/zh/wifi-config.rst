@@ -73,16 +73,16 @@ Wi-Fi配网说明
 
 .. note:: Wi-Fi 认证模式支持说明
 
-   本产品在标准配网模式下，默认支持采用以下个人级安全协议 (Personal Security Protocols) 的 Wi-Fi 接入点 (AP)：
+   本产品支持以下类型的 Wi-Fi 接入点 (AP) 配置：
 
-   - WPA-Personal / WPA2-Personal (基于 PSK, Pre-Shared Key)
-   - WPA3-Personal (基于 SAE, Simultaneous Authentication of Equals)
-   - WPA2/WPA3 混合/过渡模式 (Mixed/Transition Mode)
+   - WPA-Personal / WPA2-Personal（基于 PSK，预共享密钥）
+   - WPA3-Personal（基于 SAE，Simultaneous Authentication of Equals）
+   - WPA2/WPA3 混合/过渡模式（Mixed/Transition Mode）
+   - WPA-Enterprise / WPA2-Enterprise / WPA3-Enterprise（基于 802.1X/EAP）
+   - 开放网络（Open network）—— 无需密码，可通过 MAC 地址白名单方式进行安全验证
+   - 隐藏 SSID 网络（Hidden SSID）—— 不广播 SSID
 
-   对于企业级认证 (Enterprise Authentication)，如 WPA/WPA2/WPA3-Enterprise (基于 802.1X/EAP)，
-   请参考上文 **WPA Enterprise（企业级）Wi-Fi 配置** 部分进行配置。
-
-   对于其他认证方式（如开放网络、旧式 WEP 协议等），请联系我们的技术支持团队以获取帮助。
+   其他认证方式（如旧式 WEP 协议等），请联系我们的技术支持团队以获取帮助。
 
 4. 手动打开配置页面（备用步骤）
 -------------------------------

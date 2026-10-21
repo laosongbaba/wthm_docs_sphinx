@@ -73,16 +73,16 @@ You can check the Wi-Fi network connection status on the device LCD screen.
 
 .. note:: Wi-Fi Authentication Mode Support Information
 
-   In standard configuration mode, this product supports the following Personal Security Protocols for Wi-Fi Access Points (AP):
+   This product supports the following Wi-Fi Access Point (AP) configuration types:
 
    - WPA-Personal / WPA2-Personal (based on PSK, Pre-Shared Key)
    - WPA3-Personal (based on SAE, Simultaneous Authentication of Equals)
    - WPA2/WPA3 Mixed/Transition Mode
+   - WPA-Enterprise / WPA2-Enterprise / WPA3-Enterprise (based on 802.1X/EAP)
+   - Open network — no password required; access security can be enforced via a MAC address whitelist
+   - Hidden SSID network — the SSID is not broadcast
 
-   For Enterprise Authentication, such as WPA/WPA2/WPA3-Enterprise (based on 802.1X/EAP),
-   please refer to the **WPA Enterprise Wi-Fi Provisioning** section above for configuration.
-
-   For other authentication methods (such as open networks, legacy WEP protocol, etc.), please contact our technical support team for assistance.
+   For other authentication methods (such as the legacy WEP protocol, etc.), please contact our technical support team for assistance.
 
 4. Manually Open the Configuration Page (Fallback Steps)
 --------------------------------------------------------
