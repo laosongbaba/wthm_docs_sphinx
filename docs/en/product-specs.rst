@@ -44,6 +44,8 @@ Device Power Supply
 - Supports standard USB Type-C 5V power supply. Rated operating current 100mA, peak operating current less than 200mA.
 - Supports DC power terminal supply, rated input voltage DC12V, range DC9~28V.
 
+See :ref:`Power Supply <dc-power>` for the location and wiring of the DC power terminal.
+
 WLAN Wireless Communication
 ---------------------------
 

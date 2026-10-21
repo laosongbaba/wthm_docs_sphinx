@@ -18,6 +18,7 @@
 
    self
    product-specs
+   dc-power
    panel-operations
    wifi-config
    device-configuration

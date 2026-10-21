@@ -35,6 +35,7 @@ if language_env.startswith('en'):
 .. |main_title| replace:: WTHM IoT Device Documentation
 .. |welcome_title| replace:: Welcome
 .. |product_specs_title| replace:: Product Specifications
+.. |dc_power_title| replace:: Power Supply
 .. |panel_ops_title| replace:: Panel Operations
 .. |wifi_config_title| replace:: Wi-Fi Provisioning
 .. |install_guide_title| replace:: Installation Guide
@@ -53,6 +54,7 @@ else:
 .. |main_title| replace:: WTHM IoT设备文档
 .. |welcome_title| replace:: 欢迎
 .. |product_specs_title| replace:: 产品技术参数
+.. |dc_power_title| replace:: 电源与供电说明
 .. |panel_ops_title| replace:: 液晶屏显示及按键说明
 .. |wifi_config_title| replace:: Wi-Fi配网说明
 .. |install_guide_title| replace:: 安装说明
